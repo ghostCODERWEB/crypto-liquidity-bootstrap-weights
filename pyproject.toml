@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-liquidity-bootstrap-weights"
+version = "0.1.0"
+description = "Interpolate two-asset pool weights over time and evaluate spot prices and scenario quotes."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-liquidity-bootstrap-weights = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]

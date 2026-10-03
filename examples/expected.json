@@ -1,0 +1,11 @@
+{
+  "scenarios": [
+    {
+      "id": "mid",
+      "output": 50.0,
+      "spot_price": "1",
+      "timestamp": 5,
+      "weight_in": "0.5"
+    }
+  ]
+}

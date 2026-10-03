@@ -1,0 +1,15 @@
+{
+  "start": 0,
+  "end": 10,
+  "start_weight": "0.8",
+  "end_weight": "0.2",
+  "balance_in": 100,
+  "balance_out": 100,
+  "scenarios": [
+    {
+      "id": "mid",
+      "timestamp": 5,
+      "amount_in": 100
+    }
+  ]
+}
